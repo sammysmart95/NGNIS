@@ -51,14 +51,54 @@
           class="hidden md:hidden bg-white absolute top-full left-0 right-0 shadow-lg rounded-b-lg"
         >
           <div class="px-4 py-3 space-y-3">
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="home">Home</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="about">About</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="products">Products</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="services">Services</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="platforms">Platforms</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="community">Community</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="demo">Demo</a>
-            <a href="#" class="block nav-link hover:text-[#0f9918] transition-colors" data-nav="contact">Contact Us</a>
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="home"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="about"
+              >About</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="products"
+              >Products</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="services"
+              >Services</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="platforms"
+              >Platforms</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="community"
+              >Community</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="demo"
+              >Demo</a
+            >
+            <a
+              href="#"
+              class="block nav-link hover:text-[#0f9918] transition-colors"
+              data-nav="contact"
+              >Contact Us</a
+            >
             <div class="pt-4 space-y-3">
               <button
                 class="primary-button w-full text-white px-4 py-2 rounded-md hover:bg-[#00a424] transition-colors"
@@ -73,7 +113,7 @@
 
     <!-- Hero Section -->
     <section
-      class="pt-48 pb-12 relative"
+      class="pt-28 md:pt-48 pb-12 relative"
       style="
         background-image: url('assets/herobackground.png');
         background-size: cover;
@@ -84,9 +124,11 @@
         class="absolute inset-0 bg-gradient-to-br from-white/90 to-green-50/90 opacity-50"
       ></div>
       <div class="container mx-auto px-4 md:px-16 relative">
-        <div class="flex flex-col md:flex-row items-center gap-8">
-          <div class="md:w-1/2 pr-10">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
+        <div class="flex flex-col md:flex-row gap-8">
+          <div class="md:w-1/2 pr-0 md:pr-10 md:pt-10 text-center md:text-left">
+            <h1
+              class="text-4xl md:text-5xl font-bold mb-4 text-gray-800 md:leading-[1.2]"
+            >
               Empowering Digital Transformation Across Nigeria
             </h1>
             <p class="text-lg mb-8 text-gray-600">
@@ -94,7 +136,7 @@
               for Nigerian governments to deliver seamless services to citizens
               and businesses.
             </p>
-            <div class="flex gap-4">
+            <div class="flex gap-4 justify-center md:justify-start">
               <button class="primary-button text-white px-6 py-1.5 rounded-md">
                 Request a Demo
               </button>
@@ -103,7 +145,7 @@
               </button>
             </div>
           </div>
-          <div class="md:w-1/2">
+          <div class="md:w-1/2 flex justify-center md:justify-start">
             <img
               src="assets/hero2.png"
               alt="Digital Transformation"
@@ -130,11 +172,13 @@
               class="w-[90%] h-[450px] object-cover shadow-xl hover:shadow-2xl transition-shadow duration-300"
             />
           </div>
-          <div class="lg:w-1/2 space-y-6">
-            <h3 class="text-[#1A1A1A] text-4xl pr-24 font-bold leading-tight">
+          <div class="lg:w-1/2 space-y-6 text-center lg:text-left">
+            <h3
+              class="text-[#1A1A1A] text-4xl font-bold leading-[1.2] lg:pr-24"
+            >
               Transforming Governance Through Digital Infrastructure
             </h3>
-            <p class="text-[#666666] text-lg leading-relaxed pr-20">
+            <p class="text-[#666666] text-lg leading-relaxed lg:pr-20">
               The E-Government Nigeria System (EGNiS) is a robust and scalable
               digital platform designed to automate and digitize government
               processes and services across Nigeria at the federal, state, and
@@ -143,33 +187,35 @@
               service delivery, streamlined communication, and enhanced
               transparency.
             </p>
-            <button
-              class="primary-button text-white px-8 py-2 rounded-md mt-8 inline-flex items-center gap-2 hover:shadow-lg transition-all duration-300"
-            >
-              Read More
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+            <div class="flex justify-center lg:justify-start">
+              <button
+                class="primary-button text-white px-8 py-2 rounded-md mt-8 inline-flex items-center gap-2 hover:shadow-lg transition-all duration-300"
               >
-                <path
-                  d="M4.25 12.5H20.75"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M14 5.75L20.75 12.5L14 19.25"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
+                Read More
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.25 12.5H20.75"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M14 5.75L20.75 12.5L14 19.25"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -1415,11 +1461,11 @@
             </div>
           </div>
 
-          <div class="lg:w-1/2 flex justify-center">
+          <div class="lg:w-1/2 flex justify-center items-center mt-8 lg:mt-0">
             <img
               src="assets/why1.png"
               alt="Why Choose EGNIS"
-              class="w-[90%] h-[450px] object-cover transition-shadow duration-300"
+              class="w-[90%] h-[350px] lg:h-[450px] object-cover transition-shadow duration-300 shadow-lg hover:shadow-xl"
             />
           </div>
         </div>
@@ -1443,15 +1489,19 @@
           delivery across all levels of government.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 px-20">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 px-5 md:px-20"
+        >
           <!-- Standardization -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 22 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1470,7 +1520,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Standardization
               </h4>
@@ -1482,13 +1532,15 @@
           </div>
 
           <!-- Scalability -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 25 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1503,7 +1555,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Scalability
               </h4>
@@ -1514,13 +1566,15 @@
           </div>
 
           <!-- Security -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 24 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1537,7 +1591,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Security
               </h4>
@@ -1549,13 +1603,15 @@
           </div>
 
           <!-- Integration -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 39 27"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1576,7 +1632,7 @@
                 </defs>
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Mobile-First Approach
               </h4>
@@ -1587,28 +1643,32 @@
           </div>
 
           <!-- Accessibility -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 30 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M24.32 8.36004C24.3925 8.54797 24.5201 8.70963 24.686 8.82383C24.852 8.93802 25.0486 8.99944 25.25 9.00004C25.3733 8.9991 25.4953 8.97536 25.61 8.93004C25.8562 8.83396 26.0543 8.64435 26.1611 8.40263C26.2679 8.16091 26.2747 7.88674 26.18 7.64004C25.7174 6.45517 25.0693 5.35139 24.26 4.37004C24.0862 4.1842 23.8481 4.07159 23.5942 4.05515C23.3403 4.03871 23.0897 4.11968 22.8934 4.28157C22.6971 4.44345 22.5699 4.67407 22.5377 4.92647C22.5054 5.17886 22.5706 5.43404 22.72 5.64004C23.3939 6.45631 23.934 7.3744 24.32 8.36004ZM21 4.00004C21.2652 4.00004 21.5196 3.89468 21.7071 3.70714C21.8946 3.51961 22 3.26525 22 3.00004C21.9956 2.86558 21.9641 2.7334 21.9074 2.6114C21.8507 2.4894 21.7699 2.3801 21.67 2.29004C21.5848 2.19758 21.4811 2.124 21.3657 2.07405C21.2503 2.0241 21.1257 1.99889 21 2.00004C20.7348 2.00004 20.4804 2.10539 20.2929 2.29293C20.1054 2.48047 20 2.73482 20 3.00004C20.0039 3.14435 20.039 3.28611 20.1028 3.41557C20.1667 3.54504 20.2578 3.65914 20.37 3.75004C20.5445 3.90417 20.7673 3.99258 21 4.00004ZM8 12C8 13.3845 8.41054 14.7379 9.17971 15.889C9.94888 17.0402 11.0421 17.9374 12.3212 18.4672C13.6003 18.997 15.0078 19.1356 16.3656 18.8655C17.7235 18.5954 18.9708 17.9288 19.9497 16.9498C20.9287 15.9708 21.5954 14.7235 21.8655 13.3657C22.1356 12.0078 21.997 10.6003 21.4672 9.32125C20.9373 8.04217 20.0401 6.94892 18.889 6.17975C17.7378 5.41058 16.3845 5.00004 15 5.00004C13.1435 5.00004 11.363 5.73754 10.0503 7.05029C8.7375 8.36305 8 10.1435 8 12ZM20 12C20 12.9889 19.7068 13.9556 19.1573 14.7779C18.6079 15.6001 17.827 16.241 16.9134 16.6194C15.9998 16.9979 14.9945 17.0969 14.0245 16.904C13.0546 16.711 12.1637 16.2348 11.4645 15.5356C10.7652 14.8363 10.289 13.9454 10.0961 12.9755C9.90315 12.0056 10.0022 11.0003 10.3806 10.0866C10.759 9.17299 11.3999 8.3921 12.2221 7.84269C13.0444 7.29328 14.0111 7.00004 15 7.00004C16.3261 7.00004 17.5979 7.52682 18.5355 8.4645C19.4732 9.40219 20 10.674 20 12Z"
-                  fill="white"
+                  d="M21.0287 3.04221L14.0981 0.444987C12.9454 0.0144314 11.0565 0.0144314 9.9037 0.444987L2.97309 3.04221C1.37587 3.63943 0.0703125 5.52832 0.0703125 7.22276V14.0582C0.0703125 16.1462 1.15365 18.1983 2.43916 20.0132C3.47164 21.8281 4.9581 23.3435 6.75276 24.4108L11.058 26.9687L15.3001 24.4161C17.0804 23.3463 18.5535 21.834 19.5763 20.0264C20.5991 18.2187 21.1367 16.1772 21.137 14.1003V4.96869C21.1373 4.86116 21.1047 4.75609 21.0436 4.66764C20.9824 4.57919 20.8956 4.5116 20.7949 4.47396L11.2528 0.937116C11.127 0.888998 10.9877 0.890882 10.8633 0.942379Z"
+                  stroke="white"
+                  stroke-width="1.57895"
                 />
                 <path
-                  d="M29.71 25.2897L24.16 19.7397C25.9956 17.5788 27.0023 14.8351 27 11.9997C27 11.7345 26.8946 11.4802 26.7071 11.2926C26.5195 11.1051 26.2652 10.9997 26 10.9997C25.7347 10.9997 25.4804 11.1051 25.2928 11.2926C25.1053 11.4802 25 11.7345 25 11.9997C24.9987 13.6257 24.601 15.2269 23.8412 16.6645C23.0815 18.1021 21.9827 19.3327 20.64 20.2497L19.64 20.8497C18.2111 21.6029 16.6202 21.9965 15.005 21.9965C13.3897 21.9965 11.7988 21.6029 10.37 20.8497L9.36996 20.2497C7.42204 18.9078 6.01291 16.9187 5.39291 14.636C4.7729 12.3532 4.98217 9.9246 5.98353 7.78157C6.98489 5.63854 8.7135 3.91985 10.8623 2.93086C13.011 1.94187 15.4408 1.7466 17.72 2.37975C17.8493 2.42671 17.9869 2.4465 18.1242 2.43785C18.2615 2.42921 18.3955 2.39233 18.5179 2.32952C18.6403 2.26672 18.7484 2.17933 18.8355 2.07283C18.9226 1.96633 18.9868 1.84301 19.024 1.71057C19.0612 1.57814 19.0708 1.43945 19.052 1.30317C19.0332 1.16689 18.9864 1.03595 18.9147 0.918552C18.843 0.801151 18.7479 0.699809 18.6352 0.620865C18.5225 0.54192 18.3948 0.487072 18.26 0.459749C15.7908 -0.228938 13.166 -0.108859 10.7701 0.802396C8.37417 1.71365 6.333 3.36819 4.94559 5.52365C3.55818 7.6791 2.89745 10.2222 3.0602 12.7804C3.22294 15.3386 4.2006 17.7775 5.84996 19.7397L0.289956 25.2897C0.148927 25.4296 0.0527466 25.6083 0.0136769 25.8031C-0.0253927 25.9978 -0.00558135 26.1998 0.0705854 26.3832C0.146752 26.5667 0.275823 26.7233 0.441343 26.8331C0.606863 26.9429 0.801332 27.0009 0.999956 26.9997H4.27996L5.04996 29.3197C5.10353 29.4821 5.19784 29.6281 5.3239 29.7436C5.44995 29.8592 5.60353 29.9405 5.76996 29.9797L5.99996 29.9997C6.13156 30.0005 6.26203 29.9753 6.38386 29.9255C6.5057 29.8758 6.61652 29.8024 6.70996 29.7097L12.65 23.7697C14.2011 24.0819 15.7988 24.0819 17.35 23.7697L23.29 29.7097C23.3834 29.8024 23.4942 29.8758 23.616 29.9255C23.7379 29.9753 23.8683 30.0005 24 29.9997H24.23C24.3964 29.9605 24.55 29.8792 24.676 29.7636C24.8021 29.6481 24.8964 29.5021 24.95 29.3397L25.72 26.9997H29C29.1986 27.0009 29.393 26.9429 29.5586 26.8331C29.7241 26.7233 29.8532 26.5667 29.9293 26.3832C30.0055 26.1998 30.0253 25.9978 29.9862 25.8031C29.9472 25.6083 29.851 25.4296 29.71 25.2897ZM10.39 23.1997L6.38996 27.1997L5.89996 25.7397C5.84608 25.5378 5.73029 25.3579 5.56887 25.2251C5.40744 25.0924 5.20848 25.0136 4.99996 24.9997H3.40996L7.14996 21.2597L8.25996 21.9197C8.62712 22.1673 9.0077 22.3943 9.39996 22.5997L10.39 23.1997ZM25 24.9997C24.7903 24.9992 24.5858 25.0646 24.4153 25.1866C24.2449 25.3086 24.117 25.4811 24.05 25.6797L23.56 27.1397L19.56 23.1397L20.56 22.5497C20.9522 22.3443 21.3328 22.1173 21.7 21.8697L22.81 21.2097L26.59 24.9997H25Z"
-                  fill="white"
+                  d="M5.74219 14.79L9.65271 17.7479L16.558 8.04785"
+                  stroke="white"
+                  stroke-width="1.57895"
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 User-Centric Design
               </h4>
@@ -1619,13 +1679,15 @@
           </div>
 
           <!-- Performance -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 22 28"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1642,7 +1704,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Secure Authentication
               </h4>
@@ -1653,13 +1715,15 @@
           </div>
 
           <!-- Compliance -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
-                width="28"
-                height="28"
+                width="24"
+                height="24"
                 viewBox="0 0 22 22"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1690,7 +1754,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Interoperability
               </h4>
@@ -1701,9 +1765,11 @@
           </div>
 
           <!-- Analytics -->
-          <div class="flex items-center gap-4 p-6 rounded-lg">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 rounded-lg shadow-md sm:shadow-none"
+          >
             <div
-              class="bg-[#0F9918] w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
+              class="bg-[#0F9918] w-12 sm:w-14 h-12 sm:h-14 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg
                 width="29"
@@ -1718,7 +1784,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="text-center sm:text-left">
               <h4 class="text-[#1A1A1A] text-base font-medium mb-1">
                 Offline Accessibility
               </h4>
@@ -1772,7 +1838,7 @@
       <div class="container mx-auto pt-10 pb-16 px-4 md:px-16">
         <div class="flex flex-col lg:flex-row items-center gap-12">
           <!-- Left Content -->
-          <div class="lg:w-1/2 pr-10">
+          <div class="lg:w-1/2 pr-0 lg:pr-10 text-center lg:text-left">
             <h3 class="text-[#1A1A1A] text-4xl font-bold mb-3">
               eHealth Nigeria <br />
               System
@@ -1787,7 +1853,7 @@
               with digital tools and solutions for quality and accessible
               healthcare for all Nigerians
             </p>
-            <div class="text-left mt-12">
+            <div class="text-center lg:text-left mt-12">
               <a
                 href="#"
                 class="primary-button text-white px-8 py-2 rounded-md inline-flex items-center gap-2 hover:shadow-lg transition-all duration-300"
@@ -1980,11 +2046,15 @@
     <!-- Trusted By Section -->
     <section class="py-16 bg-[#F5F6F7]">
       <div class="container mx-auto px-4 md:px-16">
-        <div class="flex flex-row justify-center">
-          <h2 class="flex-1 text-2xl font-bold">
+        <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <h2
+            class="text-2xl font-bold text-center md:text-left md:flex-1 mb-8 md:mb-0"
+          >
             EGNIS is Trusted By
           </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center"
+          >
             <div
               class="w-48 h-24 bg-white rounded-lg shadow-sm flex items-center justify-center p-4 hover:shadow-md transition-shadow duration-300"
             >
@@ -2058,11 +2128,14 @@
               />
             </div>
           </div>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-[url('assets/nigeria.png')] bg-[length:40%_auto] bg-no-repeat bg-center text-white py-16">
+    <footer
+      class="bg-[url('assets/nigeria.png')] bg-[length:40%_auto] bg-no-repeat bg-center text-white py-16"
+    >
       <div class="container mx-auto px-4 md:px-16">
         <div class="flex flex-col items-center lg:flex-row gap-16">
           <div class="lg:w-1/2">
@@ -2071,55 +2144,213 @@
 
           <div class="lg:w-1/2 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 class="text-[#061C3D] text-base font-medium mb-6">QUICK LINKS</h3>
+              <h3 class="text-[#061C3D] text-base font-medium mb-6">
+                QUICK LINKS
+              </h3>
               <ul class="space-y-2">
-                <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">-- Portfolio</a></li>
-                <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">About</a></li>
-                <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Services</a></li>
-                <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Pricing Plans</a></li>
-                <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Contacts</a></li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >-- Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Pricing Plans</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Contacts</a
+                  >
+                </li>
               </ul>
             </div>
 
             <div>
-                <h3 class="text-[#061C3D] text-base font-medium mb-6">SERVICES</h3>
-                <ul class="space-y-2">
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">UI/UX Design</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Branding</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">llustration</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Design Concept</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">App Design</a></li>
-                </ul>
+              <h3 class="text-[#061C3D] text-base font-medium mb-6">
+                SERVICES
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >UI/UX Design</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Branding</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >llustration</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Design Concept</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >App Design</a
+                  >
+                </li>
+              </ul>
             </div>
 
             <div>
-                <h3 class="text-[#061C3D] text-base font-medium mb-6">PRODUCTS</h3>
-                <ul class="space-y-2">
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Figma</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Adobe</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Dribbble</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Behance</a></li>
-                  <li><a href="#" class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]">Themeforest</a></li>
-                </ul>
+              <h3 class="text-[#061C3D] text-base font-medium mb-6">
+                PRODUCTS
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Figma</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Adobe</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Dribbble</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Behance</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-[#061C3D] text-sm transition-colors hover:text-[#0F9918]"
+                    >Themeforest</a
+                  >
+                </li>
+              </ul>
             </div>
 
             <div>
-              <h3 class="text-[#061C3D] text-base font-medium mb-6">Contact us with:</h3>
+              <h3 class="text-[#061C3D] text-base font-medium mb-6">
+                Contact us with:
+              </h3>
               <div class="flex gap-4">
-                <a href="#" class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
-                  </a>
-                <a href="#" class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                <a
+                  href="#"
+                  class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                    />
+                  </svg>
                 </a>
-                <a href="#" class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <a
+                  href="#"
+                  class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                    />
+                  </svg>
                 </a>
-                <a href="#" class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                <a
+                  href="#"
+                  class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                    />
+                  </svg>
                 </a>
-                <a href="#" class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z"/></svg>
+                <a
+                  href="#"
+                  class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="text-[#666666] hover:text-white hover:bg-[#0F9918] p-2 rounded-lg transition-all transform hover:scale-110"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z"
+                    />
+                  </svg>
                 </a>
               </div>
             </div>
